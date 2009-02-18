@@ -158,7 +158,18 @@ set mouse=a  " Mouse in all modes
 
 " set by zeahok >>>
 
+" set taglist only show one file
+let Tlist_Show_One_File=1
+
+" exit when only taglist window is open
+let Tlist_Exit_OnlyWindow=1
+
+" set search ignore case
+set ignorecase
+
 " set color scheme
 colorscheme darkblue
 
+" set taglist window to right side
+let Tlist_Use_Right_Window = 1
 
